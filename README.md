@@ -1,5 +1,8 @@
 # `starwars`
 
+[![CI](https://github.com/flowck/starwars-react/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/flowck/starwars-react/actions/workflows/ci.yml)
+[![CI](https://github.com/flowck/starwars-react/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/flowck/starwars-react/actions/workflows/ci.yml)
+
 ## Requirements
 
 Please refer to [./REQUIREMENTS.md](./REQUIREMENTS.md)
