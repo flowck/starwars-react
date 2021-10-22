@@ -1,5 +1,5 @@
-import { Errors } from "../Errors/Errors";
-import { Routes } from "../Routes/Routes";
+import { Errors } from "@/containers/Errors/Errors";
+import { Routes } from "@/containers/Routes/Routes";
 
 export function App() {
   return (

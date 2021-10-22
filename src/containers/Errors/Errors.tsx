@@ -1,5 +1,5 @@
 import { ErrorBoundary } from "react-error-boundary";
-import { BaseProps } from "../../common/typings/interfaces";
+import { BaseProps } from "@/common/typings/interfaces";
 
 function ErrorFallBack() {
   return <div>Something went wrong</div>;
