@@ -139,7 +139,7 @@
       "^.+\\.module\\.(css|sass|scss)$"
     ],
     "modulePaths": [
-      "/Users/personal/Documents/portfolio/starwars/src"
+      "<rootDir>/src"
     ],
     "moduleNameMapper": {
       "^react-native$": "react-native-web",
