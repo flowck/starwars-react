@@ -2,13 +2,13 @@
 
 ## Functional
 
-### People
+### Characters
 
-- List peoples in a page
+- List characters in a page
   - Data should be paginated
   - Users should be able to click a link to visualise more info about a person
-  - Users should be able to search for people by name
-- View people's details in a page
+  - Users should be able to search for character by name
+- View character's details in a page
   - Users should be able to click on startships, and vehicles
 
 ### Vehicles
