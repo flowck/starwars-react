@@ -1,20 +1,20 @@
-import { PeopleList } from "@/modules/People";
 import { ListSarships } from "@/modules/Starships";
+import { CharacterList } from "@/modules/Characters";
 import { Route, Switch, Redirect } from "react-router-dom";
 
 export function Routes() {
   return (
     <Switch>
       <Route exact path="/">
-        <Redirect to="/people"></Redirect>
+        <Redirect to="/characters"></Redirect>
       </Route>
 
-      <Route exact path="/people">
-        <PeopleList />
+      <Route exact path="/characters">
+        <CharacterList />
       </Route>
 
-      <Route exact path="/people/:id">
-        <h1>A person</h1>
+      <Route exact path="/characters/:id">
+        <h1>Characters</h1>
       </Route>
 
       <Route exact path="/starships">
