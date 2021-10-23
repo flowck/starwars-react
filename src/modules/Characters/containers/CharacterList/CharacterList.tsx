@@ -4,10 +4,10 @@ import { useHttp } from "@/common/hooks/useHttp";
 import { Title } from "@/common/components/Title/Title";
 import Heading from "@kiwicom/orbit-components/lib/Heading";
 import Loading from "@kiwicom/orbit-components/lib/Loading";
-import { ICharacter, Character } from "@/modules/Character";
-import { getCharacter } from "@/modules/Character/selectors";
+import { ICharacter, Character } from "@/modules/Characters";
+import { getCharacter } from "@/modules/Characters/selectors";
 import { SWAPIItemsResponse } from "@/common/typings/interfaces";
-import { CharacterItem } from "@/modules/Character/components/CharacterItem/CharacterItem";
+import { CharacterItem } from "@/modules/Characters/components/CharacterItem/CharacterItem";
 
 export function CharacterList() {
   const { data, error, isLoading } = useHttp<SWAPIItemsResponse<ICharacter[]>>("/people");

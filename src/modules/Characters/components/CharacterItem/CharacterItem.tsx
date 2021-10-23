@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { Character } from "@/modules/Character";
+import { Character } from "@/modules/Characters";
 import Card, { CardSection } from "@kiwicom/orbit-components/lib/Card";
 
 interface Props {

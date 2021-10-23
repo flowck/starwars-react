@@ -2,7 +2,7 @@ import { http } from "@/common/utils/http";
 import { act } from "react-dom/test-utils";
 import MockAdapter from "axios-mock-adapter";
 import { CharacterList } from "./CharacterList";
-import { characters } from "@/modules/Character/fixtures";
+import { characters } from "@/modules/Characters/fixtures";
 import { Providers } from "@/containers/Providers/Providers";
 import { render, screen, waitFor } from "@testing-library/react";
 

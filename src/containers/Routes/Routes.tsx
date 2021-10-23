@@ -1,5 +1,5 @@
 import { ListSarships } from "@/modules/Starships";
-import { CharacterList } from "@/modules/Character";
+import { CharacterList } from "@/modules/Characters";
 import { Route, Switch, Redirect } from "react-router-dom";
 
 export function Routes() {
