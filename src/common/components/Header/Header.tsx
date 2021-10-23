@@ -49,14 +49,14 @@ export function Header() {
           <Nav>
             <ul>
               <li>
-                <NavLink activeClassName="nav--active" to="/people">
-                  <TextLink asComponent="span">Peope</TextLink>
+                <NavLink activeClassName="nav--active" to="/characters">
+                  <TextLink asComponent="span">Characters</TextLink>
                 </NavLink>
               </li>
 
               <li>
                 <NavLink activeClassName="nav--active" to="/starships">
-                  <TextLink asComponent="span">Startships</TextLink>
+                  <TextLink asComponent="span">Starships</TextLink>
                 </NavLink>
               </li>
             </ul>
