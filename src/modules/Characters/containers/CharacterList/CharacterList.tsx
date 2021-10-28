@@ -18,8 +18,7 @@ export function CharacterList() {
   }
 
   if (error) {
-    // throw error;
-    console.log(error);
+    throw error;
   }
 
   const renderCharacters = () => {
